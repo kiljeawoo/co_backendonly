@@ -1,8 +1,9 @@
+<!--
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
 
-<!--	&lt;!&ndash; Appenders &ndash;&gt;-->
+&lt;!&ndash;	&lt;!&ndash; Appenders &ndash;&gt;&ndash;&gt;
 	<appender name="console" class="org.apache.log4j.ConsoleAppender">
 		<param name="Target" value="System.out" />
 		<layout class="org.apache.log4j.PatternLayout">
@@ -10,12 +11,12 @@
 		</layout>
 	</appender>
 	
-<!--	&lt;!&ndash; Application Loggers &ndash;&gt;-->
+&lt;!&ndash;	&lt;!&ndash; Application Loggers &ndash;&gt;&ndash;&gt;
 	<logger name="com.goldrithm.dao">
 		<level value="info" />
 	</logger>
 	
-<!--	&lt;!&ndash; 3rdparty Loggers &ndash;&gt;-->
+&lt;!&ndash;	&lt;!&ndash; 3rdparty Loggers &ndash;&gt;&ndash;&gt;
 	<logger name="org.springframework.core">
 		<level value="info" />
 	</logger>
@@ -32,10 +33,11 @@
 		<level value="info" />
 	</logger>
 
-<!--	&lt;!&ndash; Root Logger &ndash;&gt;-->
+&lt;!&ndash;	&lt;!&ndash; Root Logger &ndash;&gt;&ndash;&gt;
 	<root>
 		<priority value="info" />
 		<appender-ref ref="console" />
 	</root>
 	
 </log4j:configuration>
+-->
